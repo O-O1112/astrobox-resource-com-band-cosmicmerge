@@ -1,10 +1,11 @@
 {
   "item": {
-    "id": "com.band.cosmicmerge",
+    "id": "io.github.o_o1112.cosmicmerge",
     "restype": "quick_app",
     "name": "星际碰碰",
     "description": "专为 **小米手环 9 Pro (336×480)** 打造的物理合成快应用小游戏《星际碰碰》！\n\n### 游戏特色\n- **15 阶可爱宇宙天体**：从星尘一路合成月亮、地球、耀金太阳、天王星、冥王星、红巨星到银河新星，双新星相撞触发超新星爆发！\n- **指尖弹弓斜射**：轻轻向下拉动即可任意角度唤出弹射轨迹，支持墙壁反弹与精准落点。\n- **多样模式与道具**：内置经典 / 极速 / 混沌三种模式，提供升阶、爆破、震荡洗牌与黑洞引力场四种道具。\n- **任务与星尘商店**：本地分难度排行榜、天体图鉴、随机小任务与永久升级商店，纯离线运行。\n\n开发者：**O-O1112**",
     "preview": [
+      "media/astrobox_preview.png",
       "media/preview_1_home.png",
       "media/preview_2_aim.png",
       "media/preview_3_merge.png",
@@ -24,7 +25,7 @@
   "downloads": {
     "xmb9p": {
       "version": "2.0.0",
-      "file_name": "downloads/com.band.cosmicmerge.release.rpk",
+      "file_name": "downloads/io.github.o_o1112.cosmicmerge.release.rpk",
       "versionCode": 2,
       "updatelogs": [
         {
