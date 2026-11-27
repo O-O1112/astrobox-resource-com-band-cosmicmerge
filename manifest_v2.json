@@ -3,7 +3,7 @@
     "id": "io.github.o_o1112.cosmicmerge",
     "restype": "quick_app",
     "name": "星际碰碰",
-    "description": "专为 **小米手环 9 Pro (336×480)** 打造的物理合成快应用小游戏《星际碰碰》！\n\n### 游戏特色\n- **15 阶可爱宇宙天体**：从星尘一路合成月亮、地球、耀金太阳、天王星、冥王星、红巨星到银河新星，双新星相撞触发超新星爆发！\n- **指尖弹弓斜射**：轻轻向下拉动即可任意角度唤出弹射轨迹，支持墙壁反弹与精准落点。\n- **多样模式与道具**：内置经典 / 极速 / 混沌三种模式，提供升阶、爆破、震荡洗牌与黑洞引力场四种道具。\n- **任务与星尘商店**：本地分难度排行榜、天体图鉴、随机小任务与永久升级商店，纯离线运行。\n\n开发者：**O-O1112**",
+    "description": "专为 **小米vela**打造的物理合成快应用小游戏《星际碰碰》！\n\n### 游戏特色\n- **15 阶可爱宇宙天体**：从星尘一路合成月亮、地球、耀金太阳、天王星、冥王星、红巨星到银河新星，双新星相撞触发超新星爆发！\n- **指尖弹弓斜射**：轻轻向下拉动即可任意角度唤出弹射轨迹，支持墙壁反弹与精准落点。\n- **多样模式与道具**：内置经典 / 极速 / 混沌三种模式，提供升阶、爆破、震荡洗牌与黑洞引力场四种道具。\n- **任务与星尘商店**：本地分难度排行榜、天体图鉴、随机小任务与永久升级商店，纯离线运行。\n\n开发者：**O-O1112**",
     "preview": [
       "media/astrobox_cover.png",
       "media/astrobox_preview.png",
@@ -24,11 +24,114 @@
   },
   "links": [],
   "downloads": {
-    "xmb9p": {
-      "version": "2.0.1",
-      "file_name": "downloads/io.github.o_o1112.cosmicmerge.release.rpk",
-      "versionCode": 3,
+    "xmrw5": {
+      "version": "2.0.3",
+      "file_name": "downloads/3_RedmiWatch4-5__cosmicmerge.rpk",
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        }
+      ]
+    },
+    "xmrw5xring": {
+      "version": "2.0.3",
+      "file_name": "downloads/3_RedmiWatch4-5__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        }
+      ]
+    },
+    "xmrw6": {
+      "version": "2.0.3",
+      "file_name": "downloads/3_RedmiWatch4-5__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        }
+      ]
+    },
+    "xmb10": {
+      "version": "2.0.3",
+      "file_name": "downloads/2_Band9-10-11__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        }
+      ]
+    },
+    "xmb10nfc": {
+      "version": "2.0.3",
+      "file_name": "downloads/2_Band9-10-11__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        }
+      ]
+    },
+    "xmb10p": {
+      "version": "2.0.3",
+      "file_name": "downloads/1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        }
+      ]
+    },
+    "xmb11": {
+      "version": "2.0.3",
+      "file_name": "downloads/2_Band9-10-11__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        }
+      ]
+    },
+    "xmb11nfc": {
+      "version": "2.0.3",
+      "file_name": "downloads/2_Band9-10-11__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        }
+      ]
+    },
+    "xmb9": {
+      "version": "2.0.3",
+      "file_name": "downloads/2_Band9-10-11__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        }
+      ]
+    },
+    "xmb9p": {
+      "version": "2.0.3",
+      "file_name": "downloads/1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        },
         {
           "version": "2.0.1",
           "content": "v2.0.1（versionCode 3）更新说明：\n1. 修复场内星球累积较多时，底部低阶小星球超过 20 颗后不再显示的问题（物件池上限提升至 28 颗）；\n2. 物理循环间隔由 64ms 提升至 42ms（约 24 FPS），球体下落、碰撞与合体动效更跟手；\n3. 弹弓向下拉拽斜抛预览点由 5 点延伸至 7 点，侧壁反弹落点预判更直观；\n4. 切出后台时自动复位瞄准与锁定状态，回到游戏无残留误触，并同步版本号至 v2.0.1。"
@@ -36,6 +139,72 @@
         {
           "version": "2.0.0",
           "content": "v2.0.0 正式发布：\n- 全新 15 阶宇宙天体与双银河新星超新星爆发机制\n- 升级轻拉 12px 任意角度弹弓斜射，新增高对比珊瑚粉反弹预测轨迹\n- 新增经典 / 极速 / 混沌三种物理模式与随机局内任务系统\n- 新增升阶、爆破、震荡洗牌、黑洞引力场四大道具与星尘永久商店\n- 适配小米手环 9 Pro 满版 Squircle 图标与防误滑返回保护"
+        }
+      ]
+    },
+    "xmws3": {
+      "version": "2.0.3",
+      "file_name": "downloads/4_WatchS3-S4__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        }
+      ]
+    },
+    "xmws4xring": {
+      "version": "2.0.3",
+      "file_name": "downloads/4_WatchS3-S4__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        }
+      ]
+    },
+    "xmws441": {
+      "version": "2.0.3",
+      "file_name": "downloads/4_WatchS3-S4__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        }
+      ]
+    },
+    "xmws4": {
+      "version": "2.0.3",
+      "file_name": "downloads/4_WatchS3-S4__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        }
+      ]
+    },
+    "xmws541": {
+      "version": "2.0.3",
+      "file_name": "downloads/4_WatchS3-S4__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
+        }
+      ]
+    },
+    "xmws5": {
+      "version": "2.0.3",
+      "file_name": "downloads/4_WatchS3-S4__cosmicmerge.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "2.0.3",
+          "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
         }
       ]
     }
