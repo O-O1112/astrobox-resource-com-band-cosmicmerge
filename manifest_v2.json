@@ -3,7 +3,7 @@
     "id": "io.github.o_o1112.cosmicmerge",
     "restype": "quick_app",
     "name": "星际碰碰",
-    "description": "专为 **小米vela**打造的物理合成快应用小游戏《星际碰碰》！\n\n### 游戏特色\n- **15 阶可爱宇宙天体**：从星尘一路合成月亮、地球、耀金太阳、天王星、冥王星、红巨星到银河新星，双新星相撞触发超新星爆发！\n- **指尖弹弓斜射**：轻轻向下拉动即可任意角度唤出弹射轨迹，支持墙壁反弹与精准落点。\n- **多样模式与道具**：内置经典 / 极速 / 混沌三种模式，提供升阶、爆破、震荡洗牌与黑洞引力场四种道具。\n- **任务与星尘商店**：本地分难度排行榜、天体图鉴、随机小任务与永久升级商店，纯离线运行。\n\n开发者：**O-O1112**",
+    "description": "《星际碰碰》是一款专为小米手环与 Vela 智能手表触控打造的物理合成小游戏，将“合成大西瓜”手感、弹弓撞墙斜抛与星际道具融合到腕间。\n\n【核心玩法】\n• 15 阶萌系星球图鉴：从迷你陨石、糖果小月一路合体进化至红巨星与银河新星。\n• 弹弓撞墙斜抛（7 点轨迹预览）＋ 每回合换球：拉拽瞄准舱壁反弹隔山打牛；发射前轻触右上角「下个」即可互换当前待发球与下颗预告球（每回合限 1 次）。\n• 局中自动存档随时续战：暂停、查看排行/商店或切后台时自动保存棋盘，首页提供「继续 · XXX分 / 新局」双栏入口。\n\n【策略道具与 v2.1.0 养成】\n• 四大星际道具：升阶、爆破、震荡、黑洞引力聚拢，搭配 7 项局内任务赢取高额星尘。\n• 7 项星尘工坊商店：包含「星尘增幅仪」（结算与任务星尘 +30%）与「狂热延展核心」（Fever 2× 延长至 8.5 秒），并修复商店卡片滚动排版，全系列均换装透明底正圆图标（192×192 / 100×100）。",
     "preview": [
       "media/astrobox_cover.png",
       "media/astrobox_preview.png",
@@ -13,7 +13,7 @@
       "media/preview_4_powerup.png",
       "media/preview_5_shop.png"
     ],
-    "icon": "media/logo.png",
+    "icon": "media/logo_192x192_circle.png",
     "cover": "media/astrobox_cover.png",
     "author": [
       {
@@ -25,10 +25,14 @@
   "links": [],
   "downloads": {
     "xmrw5": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/3_RedmiWatch4-5__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -36,10 +40,14 @@
       ]
     },
     "xmrw5xring": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/3_RedmiWatch4-5__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -47,10 +55,14 @@
       ]
     },
     "xmrw6": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/3_RedmiWatch4-5__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -58,10 +70,14 @@
       ]
     },
     "xmb10": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/2_Band9-10-11__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -69,10 +85,14 @@
       ]
     },
     "xmb10nfc": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/2_Band9-10-11__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -80,10 +100,14 @@
       ]
     },
     "xmb10p": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -91,10 +115,14 @@
       ]
     },
     "xmb11": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/2_Band9-10-11__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -102,10 +130,14 @@
       ]
     },
     "xmb11nfc": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/2_Band9-10-11__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -113,10 +145,14 @@
       ]
     },
     "xmb9": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/2_Band9-10-11__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -124,10 +160,14 @@
       ]
     },
     "xmb9p": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -143,10 +183,14 @@
       ]
     },
     "xmws3": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/4_WatchS3-S4__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -154,10 +198,14 @@
       ]
     },
     "xmws4xring": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/4_WatchS3-S4__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -165,10 +213,14 @@
       ]
     },
     "xmws441": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/4_WatchS3-S4__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -176,10 +228,14 @@
       ]
     },
     "xmws4": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/4_WatchS3-S4__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -187,10 +243,14 @@
       ]
     },
     "xmws541": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/4_WatchS3-S4__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
@@ -198,10 +258,14 @@
       ]
     },
     "xmws5": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "file_name": "downloads/4_WatchS3-S4__cosmicmerge.rpk",
-      "versionCode": 5,
+      "versionCode": 6,
       "updatelogs": [
+        {
+          "version": "2.1.0",
+          "content": "星际碰碰 v2.1.0（versionCode: 6）更新日志（直接复制到 AstroBox）：\n\n1. 分机型透明底正圆图标（告别方框与过小）：\n- 重绘透明底星棒与彩虹轨正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆。\n\n2. 新增点击「下个」球槽每回合换球一次：\n- 发射前轻触右上角「下个」预览槽即可互换当前待发球与下颗预告球（每回合限换 1 次），斜抛策略与连击规划更从容。\n\n3. 局中自动存档与首页续玩入口：\n- 暂停、查看排行/图鉴/商店、切后台或返回首页时自动保存当前棋盘进度；首页支持「继续 · XXX分 / 新局」分栏入口，随时接着玩且完全兼容旧存档。\n\n4. 任务与星尘商店扩充 + 列表排版修复：\n- 局内任务由 5 项增至 7 项（新增「达成 4 连击」与「累计合体 10 次」）；\n- 星尘工坊由 5 项扩充至 7 项（新增「星尘增幅仪」结算与任务星尘 +30%、「狂热延展核心」Fever 2x 持续 +2.5 秒至 8.5 秒）；\n- 修复商店与排行页滚动容器内卡片高度挤压问题，全机型卡片清晰易点。\n\n5. 全系列 4 个适配分包同步升级至 v2.1.0：\n- 1_Band9Pro-10Pro-8Pro__cosmicmerge.rpk（Xiaomi Smart Band 9 Pro / 10 Pro / 8 Pro）\n- 2_Band9-10-11__cosmicmerge.rpk（Xiaomi Smart Band 9 / 10 / 11 跑道屏）\n- 3_RedmiWatch4-5__cosmicmerge.rpk（REDMI Watch 4 / 5 / 5 eSIM）\n- 4_WatchS3-S4__cosmicmerge.rpk（Xiaomi Watch S3 / S4 / S4 eSIM / S4 Sport）"
+        },
         {
           "version": "2.0.3",
           "content": "v2.0.3（versionCode 5）全系列屏幕适配更新：\n1. 重构行星尺寸与物理容器为按屏幕比例缩放架构，15 阶星球与万用星核贴图按各机型生成 1:1 高清尺寸，物理碰撞与视觉尺寸严丝合缝；\n2. 新增 Xiaomi Smart Band 9 / 10 / 11 跑道屏、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表（圆形安全区专属 HUD/道具栏排版）三大分包；\n3. 保留 v2.0.2 轻量化绑定与 32ms 触控节流、24 颗底部星球池、7 点弹弓反弹预览及对局页面防误触返回（swipeBack: false）。"
